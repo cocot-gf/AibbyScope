@@ -31,6 +31,7 @@ AIBBY用ファームウェア
 
 ### AibbyScopeViewer
 Windows用 表示ソフトウェア
+FTDIの通信インターフェースFT232H/FT2232H/FT4232Hのどれかを使ってPCと接続します。FT2232Dは使用できません。
 
 ## マニュアル
 * 準備中
