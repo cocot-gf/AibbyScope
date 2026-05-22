@@ -1,0 +1,1 @@
+# AibbyScopeViewer VisualStudio用ソースツリー
