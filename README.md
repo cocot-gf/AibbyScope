@@ -7,6 +7,7 @@
 
 人目を引くちょっとしたお遊びに、音楽再生中のインテリアに、1台作ってみませんか？
 
+[![Youtube](https://github.com/user-attachments/assets/3bf2b3cd-ec55-4929-a7e0-7f8a2fe3e476)](https://youtu.be/u3YaAkrQtn4)
 <img width="450" alt="DSC01845" src="https://github.com/user-attachments/assets/5647e19d-46f5-40ef-967e-c309cc95a5ea" />
 <img width="450" alt="DSC01844" src="https://github.com/user-attachments/assets/843fcaff-a7aa-4d2d-9da3-da312cc73ab1" />
 <img alt="AibbyScope" src="https://github.com/user-attachments/assets/f834b8ca-0777-4cc3-afa0-10c650fb751e" />
