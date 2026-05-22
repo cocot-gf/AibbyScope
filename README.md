@@ -3,7 +3,7 @@
 オーディオ帯域のアナログ信号をマイコン内蔵ADCでサンプリングし、FFTの結果をオシロスコープやPC上に表示させます。
 
 動作ハードウェアは(株)データ・テクノで販売されているSolist-AIマイコン ブレークアウトボード「[AIBBY](https://www.datatecno.co.jp/prod_info/dt-bbml63q2557/)」をはじめ、
-[評価ボード「DT-EBML63Q2557」](https://www.datatecno.co.jp/prod_info/solistai_board/)や(株)ローム製 リファレンスボード「[RB-D63Q2557TB64](https://ros.rohm.co.jp/product/rbd63q2557tb64evk/01tRC00000BcvYPYAZ)」で動作します。
+評価ボード「[DT-EBML63Q2557](https://www.datatecno.co.jp/prod_info/solistai_board/)」や(株)ローム製 リファレンスボード「[RB-D63Q2557TB64](https://ros.rohm.co.jp/product/rbd63q2557tb64evk/01tRC00000BcvYPYAZ)」で動作します。
 
 人目を引くちょっとしたお遊びに、音楽再生中のインテリアに、1台作ってみませんか？
 
