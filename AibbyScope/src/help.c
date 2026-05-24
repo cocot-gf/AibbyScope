@@ -48,7 +48,7 @@ void help(void) {
   puts(" c   Show Config   : Show Configration for GUI\r\n\r");
   puts("Press SPACE to pause/resume sampling.\r");
   puts("Press ESC to restore the default settings.\r\n\r");
-  puts("[P52] Analog Input        [P84] UART TX [P85] UART RX\r");
+  puts("[P52] Analog Input        [P84] UART RX [P85] UART TX\r");
   puts("[P4x] Parallel DAC Output [P32] SCK [P33] SDO [P34] SDI [P35] SS#\r");
   puts("[P36] Video Sync Output   [P72] Monitor LED\r");
 }
