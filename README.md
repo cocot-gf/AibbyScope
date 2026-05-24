@@ -17,6 +17,7 @@ AIBBYとロームのリファレンスボードはCPU単体製品のため、外
   
 データ・テクノの評価ボードには入力アンプとFT2232Hが搭載されているのでボード単体で使用できます。  
 ただしこちらの製品はDACへの出力ポート数が不足しているため、オシロスコープへの表示はできません。
+
 <img width="787" height="413" alt="block" src="https://github.com/user-attachments/assets/c485d6cb-4a51-47a4-8fa8-267b6a63afe8" />
 
 ## プログラム構成
@@ -36,10 +37,31 @@ Windows用 表示ソフトウェア
   
 FTDIの通信インターフェースFT232H/FT2232H/FT4232Hのどれかを使ってPCと接続します。 
 
-## マニュアル
-* 準備中
+## 参考回路図
+### 入力アンプ
+サンプリング周波数が可変なので、申し訳程度の緩いフィルタを入れてあります。
+C2があるのでDC入力はできません。無入力時にADCへ1.65Vが入力されるようにVR1を調整します。  
 
-## 回路図
+<img width="733" height="360" alt="Untitled" src="https://github.com/user-attachments/assets/27c88915-b414-4804-939b-c1ca5a17325d" />
+
+データ・テクノ製の評価ボードも回路図が公開されていて、fc=10kHzで強めのフィルタが入ってるのとゲインが可変できるようなので、そちらの回路を参考にするとよいかもしれません。
+
+### CPU入出力
+ブレークアウトボードAIBBYを使った場合の接続例です。
+<img width="730" height="400" alt="Untitled" src="https://github.com/user-attachments/assets/aab1cae5-b9cb-4283-ac1e-cd8ac55ca403" />
+
+| ピン名 | 用途 |
+|-|-|
+| P52 | ADC入力 |
+| P40-P47 | R-2R DAC出力 |
+| P84,P85 | UART入出力 |
+| P32-P35 | SPI入出力 |
+| P36 | 同期信号 |
+
+同期信号はR-2Rの描画開始直前にHIGH、R-2Rの描画終了直後にLOWになり、HIGHの期間は概ね10msです。
+SPIデータの有効期間は同期信号がHIGHの時だけなので、SPI読み取り後にGPIOでHIGHである事を確認すれば、有効データであることが確実になります。
+
+## マニュアル
 * 準備中
 
 ## 機能仕様
