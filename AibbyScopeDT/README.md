@@ -1,4 +1,5 @@
 # AibbyScopeDT LEXIDE-Ω用ソースツリー
+これはAibbyScopeをデータ・テクノ製の評価ボードDT-EBML63Q2557向けに移植したプログラムです。
 
 ## ビルド環境
 * LEXIDE-Ω Version: 2.1.0 
