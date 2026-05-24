@@ -2,7 +2,7 @@
 「AibbyScope」はローム製AIアクセラレータ付きマイコンML63Q2500シリーズを使ったスペクトラムアナライザです。
 オーディオ帯域のアナログ信号をマイコン内蔵ADCでサンプリングし、FFTの結果をオシロスコープやPC上に表示させます。
 
-動作ハードウェアはデータ・テクノで販売されているSolist-AIマイコン ブレークアウトボード「[AIBBY](https://www.datatecno.co.jp/prod_info/dt-bbml63q2557/)」をはじめ、
+動作ハードウェアは(株)データ・テクノで発売されているSolist-AIマイコン ブレークアウトボード「[AIBBY](https://www.datatecno.co.jp/prod_info/dt-bbml63q2557/)」をはじめ、
 評価ボード「[DT-EBML63Q2557](https://www.datatecno.co.jp/prod_info/solistai_board/)」やローム製 リファレンスボード「[RB-D63Q2557TB64](https://ros.rohm.co.jp/product/rbd63q2557tb64evk/01tRC00000BcvYPYAZ)」で動作します。
 
 人目を引くちょっとしたお遊びに、音楽再生中のインテリアに、1台作ってみませんか？
@@ -15,7 +15,7 @@
 ## システム構成
 AIBBYとロームのリファレンスボードはCPU単体製品のため、外部に入力アンプと出力用のインターフェースが必要です。
   
-データ・テクノの評価ボードには入力アンプとFT2232Hが搭載されているのでボード単体で使用できます。  
+データ・テクノ製の評価ボードには入力アンプとFT2232Hが搭載されているのでボード単体で使用できます。  
 ただしこちらの製品はDACへの出力ポート数が不足しているため、オシロスコープへの表示はできません。
 
 <img width="787" height="413" alt="block" src="https://github.com/user-attachments/assets/c485d6cb-4a51-47a4-8fa8-267b6a63afe8" />
